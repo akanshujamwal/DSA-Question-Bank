@@ -27,8 +27,6 @@ The questions are divided into four main categories based on their difficulty le
 The repository is structured to be clean and easy to navigate. Each question has its own dedicated folder.
 
 * **DSA-Question-Bank/**
-    * `.gitignore`
-    * `LICENSE`
     * `README.md`
     * **Easy/**
         * **Example.java**
