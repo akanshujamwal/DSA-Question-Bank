@@ -49,7 +49,7 @@ public class Solution extends GuessGame {
         int start = 0;
         int end = n;
         while (start <= end) {
-            int mid = (start + end) / 2;
+            int mid = start + (end - start) / 2;
             int g = guess(mid);
             if (g == 0) {
                 return mid;
