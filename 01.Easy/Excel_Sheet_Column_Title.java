@@ -44,3 +44,19 @@ class Solution {
         return sb.reverse().toString();
     }
 }
+//solution 2
+class Solution {
+    public String convertToTitle(int columnNumber) {
+        // Base Case: If number is 0, stop recursion
+        if (columnNumber == 0) {
+            return "";
+        }
+
+        // 1. Adjust to 0-indexed (1 -> 0, 26 -> 25)
+        columnNumber--;
+
+        // 2. Recursive Step: Get the title for the rest of the number
+        // and add the current character at the end.
+        return convertToTitle(columnNumber / 26) + (char) ('A' + columnNumber % 26);
+    }
+}
