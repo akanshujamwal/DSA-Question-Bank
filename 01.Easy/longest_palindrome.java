@@ -40,3 +40,31 @@ class Solution {
         return res;
     }
 }
+
+import java.util.HashSet;
+
+class Solution {
+    public int longestPalindrome(String s) {
+        HashSet<Character> set = new HashSet<>();
+        int res = 0;
+
+        for (char ch : s.toCharArray()) {
+            if (set.contains(ch)) {
+                // We found a matching pair
+                set.remove(ch);
+                res += 2;
+            } else {
+                // Add the character waiting for a match
+                set.add(ch);
+            }
+        }
+
+        // If the set is not empty, it means we have unmatched characters.
+        // We can take exactly one of them to put in the middle.
+        if (!set.isEmpty()) {
+            res++;
+        }
+
+        return res;
+    }
+}
