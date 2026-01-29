@@ -8,16 +8,16 @@ A curated collection of over 200 Data Structures and Algorithms questions, desig
 
 The questions are divided into four main categories based on their difficulty level.
 
-* [**Easy**](./Easy) - `31 Questions`
+* [**Easy**](./Easy) 
     * Perfect for beginners to build a strong foundation. Focuses on basic concepts and straightforward implementations.
 
-* [**Medium**](./Medium) - `73 Questions`
+* [**Medium**](./Medium) 
     * Challenges you to apply multiple concepts. These are typical questions you'd encounter in a first or second-round technical interview.
 
-* [**Hard**](./Hard) - `58 Questions`
+* [**Hard**](./Hard)
     * Requires a deep understanding of complex algorithms, data structures, and creative problem-solving skills. Often seen in final-round interviews at top tech companies.
 
-* [**Very Hard**](./Very-Hard) - `38 Questions`
+* [**Very Hard**](./Very-Hard)
     * The toughest challenges that test the limits of your algorithmic knowledge, often involving advanced topics or complex mathematical insights.
 
 ---
