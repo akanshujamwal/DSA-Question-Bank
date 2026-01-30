@@ -1,6 +1,6 @@
 # 200+ DSA Question Bank
 
-A curated collection of over 200 Data Structures and Algorithms questions, designed to sharpen your problem-solving skills and prepare you for technical interviews. Questions are organized by difficulty to provide a structured learning path.
+A curated collection of over 200+ Data Structures and Algorithms questions, designed to sharpen your problem-solving skills and prepare you for technical interviews. Questions are organized by difficulty to provide a structured learning path.
 
 
 
