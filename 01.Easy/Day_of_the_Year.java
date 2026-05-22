@@ -48,3 +48,17 @@ class Solution {
         return total;
     }
 }
+
+
+
+class Solution {
+    public int dayOfYear(String date) throws Exception {
+        java.text.SimpleDateFormat sdf = new java.text.SimpleDateFormat("yyyy-MM-dd");
+        java.util.Date parsedDate = sdf.parse(date);
+        
+        java.util.Calendar calendar = java.util.Calendar.getInstance();
+        calendar.setTime(parsedDate);
+        
+        return calendar.get(java.util.Calendar.DAY_OF_YEAR);
+    }
+}
